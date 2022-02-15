@@ -1,0 +1,63 @@
+.container1{
+   width: 20%;
+   height: 10%;
+   border: 10px solid #fff;
+   border-radius: 25px;
+   position:relative;
+}
+
+   .container1 > div {
+      padding: 20px;
+      text-align: center;
+      font-size: 0.75em;
+      color: #8bc747;
+   }
+
+   .container1 > div:nth-child(1){
+      color: #01010c;
+      background-color: #fff;
+      overflow-wrap: break-word;
+      
+   }
+
+   .container1 > div:nth-child(2){
+      color:#c3cfe2;
+      background-color: #686de0;
+      overflow-wrap: break-word;
+      
+   }
+
+   .hond{
+      border-radius: 100%;
+      position: absolute;
+      left: 2px;
+
+
+
+
+
+}
+
+/*Media queries, getest op kleuren ? ja*/
+/*phone*/
+@media screen and (min-width: 320px) {
+    
+   body {
+       background-color: lightgreen;
+     } 
+   }
+/*tablet*/
+ @media screen and (min-width: 768px){
+   
+   body {
+       background-color: rgb(197, 76, 76);
+        } 
+   }
+
+/*laptop*/
+ @media screen and (min-width: 1024px){
+ 
+   body {
+   background-color: rgb(95, 171, 201);
+        }
+   }

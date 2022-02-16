@@ -1,0 +1,16 @@
+.gridcontainer{
+    display:grid;
+    grid-template-columns: 35% 35% 30%;
+
+}
+
+.gridcontainer > div{
+    background:#eee;
+    padding: 1em;
+    
+}
+
+.gridcontainer > div:nth-child(odd){
+    background: #ddd;
+    padding:  1em;
+}

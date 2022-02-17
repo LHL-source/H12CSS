@@ -1,0 +1,31 @@
+.body {
+  padding: 10px;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-gap: 16px;
+  padding: 16px;
+}
+
+img {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+img:hover {
+  opacity: 2;
+  filter: alpha(opacity=20);
+}
+
+/* @media (min-width: 320px) {
+     grid-template-columns: repeat(1 1fr);
+ }
+
+ @media (min-width: 768px) {
+     grid-template-columns: repeat(2, 1fr);
+ }
+
+ @media (min-width: 1024px) {
+     grid-template-columns: repeat(3, 1fr);
+ }*//*# sourceMappingURL=styles.css.map */

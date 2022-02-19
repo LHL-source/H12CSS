@@ -23,26 +23,30 @@
   background-color: rgb(209, 66, 137);
 }
 
+/*bij media queries 1024 px*/
+/*Github*/
 .but1 {
   width: 10%;
-  height: 8%;
+  height: 10%;
   border-style: solid;
   padding: 2px;
   border-color: black;
+  background-color: whitesmoke;
   text-align: center;
 
   position: absolute;
   right: 2%;
   bottom: 5%;
-  transition: width 3s;
+  transition: width 2s;
   transition-timing-function: ease-in-out;
 
   &:hover {
     width: 50%;
-    background-color: yellow;
+    background-color: whitesmoke;
   }
 }
 
+/*facebook*/
 .but2 {
   width: 10%;
   height: 8%;
@@ -50,27 +54,53 @@
   padding: 2px;
   border-color: black;
   text-align: center;
+  background: #3b5998;
 
   position: absolute;
   right: 2%;
   bottom: 17%;
-  transition: width 1000s;
+  transition: width 2s;
   transition-timing-function: ease-in-out;
-}
 
+  &:hover {
+    width: 50%;
+    background-color: #3b5998;
+  }
+}
+/*linkIn*/
 .but3 {
   width: 10%;
   height: 8%;
   border-style: solid;
-  padding: 0.5px;
+  padding: 2px;
   border-color: black;
   text-align: center;
+  background-color: #007bb5;
 
   position: absolute;
   right: 2%;
-  bottom: 30%;
-  transition: width 1000s;
+  bottom: 29%;
+  transition: width 2s;
   transition-timing-function: ease-in-out;
+
+  &:hover {
+    width: 50%;
+    background-color: #007bb5;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa fa-github {
+  background: black;
+  color: white;
 }
 
 /*.buttonone{

@@ -1,0 +1,44 @@
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+}
+
+.gridcontainer > div {
+  background: #eee;
+  padding: 1em;
+}
+
+.gridcontainer > div:nth-child(odd) {
+  background: #ddd;
+  padding: 1em;
+}
+
+.hond {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*:hover{
+ background-color: yellow; 
+      }*/
+/*Media queries, getest op kleuren ? ja*/
+/*phone*/
+@media screen and (min-width: 320px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+/*tablet*/
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #c54c4c;
+  }
+}
+/*desktop*/
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: #5fabc9;
+  }
+}/*# sourceMappingURL=styles.css.map */
